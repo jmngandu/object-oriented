@@ -18,7 +18,10 @@ int main(){
     cout<<characterName<<" scored "<<grade<< "and my gpa is " <<gpa<<endl;
     cout<<characterName.length()<<endl;
     cout<<characterName[3]<<endl;//accessing index
+    //functios
     cout<<pow(2,5)<<endl;//math function
+    cout<<sqrt(36)<<endl;// returns square of a number
+    cout<<fmax(30, 45)<<endl;//shows the largest number
 
     return(0);
 }
