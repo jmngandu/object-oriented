@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cmath>
+#include <cmath>//to use math functions
 using namespace std;
 
 int main(){
@@ -17,8 +17,8 @@ int main(){
     cout << characterName<<" is "<<characterAge<<" years old"<<endl;
     cout<<characterName<<" scored "<<grade<< "and my gpa is " <<gpa<<endl;
     cout<<characterName.length()<<endl;
-    cout<<characterName[3]<<endl;
-    cout<<pow(2,5)<<endl;
+    cout<<characterName[3]<<endl;//accessing index
+    cout<<pow(2,5)<<endl;//math function
 
     return(0);
 }
