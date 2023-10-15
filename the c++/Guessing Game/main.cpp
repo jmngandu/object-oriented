@@ -1,22 +1,14 @@
 #include <iostream>
-#include <stdio.h>
-#include <stdlib.h>
-
 using namespace std;
 
 int main(){
+    int luckyNum = 8;
+    int guess;
 
-    cout<<"hello"<<endl;
-    printf("Hello\n");
-     printf("Hello\n");
-      printf("Hello\n");
-       printf("Hello\n");
-        printf("Hello\n");
-         printf("Hello\n");
-          printf("Hello\n");
-           printf("Hello\n");
-            printf("Hello\n");
-
-
+    while (luckyNum != guess){
+        cout<<"Enter the lucky number: ";
+        cin>>guess;
+    }
+    cout<<"You won!"<<endl;
     return 0;
 }
