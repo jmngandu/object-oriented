@@ -7,6 +7,9 @@ int main(){
       double gpa = 4.5;
       string name = "james";
       int *Pnum = &num;
-      cout<<*Pnum<<endl;
+      cout<<gpa<<endl;
+
+      cout<<*Pnum<<endl;//dereferencing a pointer
+      cout<<*&name<<endl;
     return 0;
 }
