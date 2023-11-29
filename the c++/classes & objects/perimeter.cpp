@@ -13,14 +13,14 @@ class rectangle{
         width = w;
     }
     void perimeter(){
-        result = 2 * (length * width);
+        result = 2 * (length + width);
         cout <<result<<endl;
         
     }
 };
 int main(){
     rectangle rectangle1;
-    rectangle1.dimensions(5.4, 6.9);
+    rectangle1.dimensions(5.0, 5.0);
     rectangle1.perimeter();
 //cout<< rectangle1.dimensions(45.4, 78.4);
   
