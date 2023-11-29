@@ -1,0 +1,1 @@
+cout<< rectangle1.dimensions(45.4, 78.4);
