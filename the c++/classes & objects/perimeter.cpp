@@ -5,24 +5,24 @@ class rectangle{
     private:
     float length;
     float width;
-    float result;
-
+   
     public:
     void dimensions(float l, float w){
         length = l;
         width = w;
     }
-    void perimeter(){
-        result = 2 * (length + width);
-        cout <<result<<endl;
-        
-    }
+    double perimeter();  
+    
 };
+
+double rectangle::perimeter(){
+    return 2 * (length + width);
+      
+        
+}
 int main(){
     rectangle rectangle1;
     rectangle1.dimensions(5.0, 5.0);
     rectangle1.perimeter();
-//cout<< rectangle1.dimensions(45.4, 78.4);
-  
   return 0;
 }
