@@ -18,7 +18,7 @@ class Person{
 int main(){
     Person Person1("James","University of Eldoret",20, 4.5);
     Person Person2("John", "University of Nairobi", 22, 4.0);
-    cout<<Person1.name;
+    cout<<Person1.name<<endl;
 
 
 
