@@ -23,6 +23,6 @@ double rectangle::perimeter(){
 int main(){
     rectangle rectangle1;
     rectangle1.dimensions(5.0, 5.0);
-    rectangle1.perimeter();
+    cout<<"Perimeter: "<<rectangle1.perimeter()<<endl;
   return 0;
 }
