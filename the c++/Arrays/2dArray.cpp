@@ -9,7 +9,7 @@ int main(){
         { 5, 8}
     };
 
-    cout<<numberGrind[2][1]<<endl;
+    cout<<"your number is: "<<numberGrind[2][1]<<endl;
 
     return 0;
 }
